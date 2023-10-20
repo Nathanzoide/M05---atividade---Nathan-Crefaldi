@@ -1,0 +1,101 @@
+Pergunta: Qual é a finalidade da declaração em um documento HTML? Qual é sua importância?
+
+R: A declaração em um documento HTML, conhecida como "Declaração de Tipo de Documento" 
+(DOCTYPE), tem a finalidade de informar ao navegador da web qual é a versão do HTML
+usada no documento, o que permite que o navegator interprete e renderize a pagina.
+É muito importante pois assegura que a pagina seja renderizada de maneira consistente em diversos
+naegadores, facilita a comformidade nos padrões web, e tambem garante uma melhor experiencia
+ao usuario.
+
+2 - Pergunta: O que são elementos HTML? Explique brevemente o conceito.
+
+R: Os elementos HTML são componentes importantes de sites usados ​​para estruturar e exibir conteúdo. 
+Eles são identificados por meio de tags HTML e podem incluindo títulos, parágrafos, imagens, links e muito mais.
+Cada elemento desempenha uma função específica na formatação e organização do conteúdo da página, 
+ajudando o navegador a entender como exibir os dados.
+
+3 - Pergunta: Em HTML, como os elementos são estruturados geralmente? Descreva a estrutura básica de um documento HTML, incluindo as tags de abertura e fechamento.
+
+R: Em HTML, os elementos são estruturados em uma hierarquia comum. 
+A estrutura básica de um documento HTML inclui:
+
+<!DOCTYPE>: Define a versão do HTML usada no documento.
+
+<html>: A tag raiz que envolve todo o conteúdo do documento HTML.
+
+<head>: Informações sobre o documento, como o título da página, metadados, links para folhas de estilo e scripts.
+
+<title>: título da página.
+
+<meta>: Metadados.
+
+<link>: Usado para vincular folhas de estilo externas ao documento.
+
+<script>: Usada para incluir scripts JavaScript no documento.
+
+<body>: Conteudo visual, imagens e textos.
+
+4 - Pergunta: O que são atributos em HTML e onde eles são normalmente encontrados em um elemento HTML? Dê um exemplo de um elemento HTML com atributos.
+
+R: Em HTML, os atributos são utilizados para modificar ou descrever um elemento HTML. São encontrados na tag de abertura de um elemento HTML
+exemplo: 'alt' é utilizado para descrever o conteúdo de uma imagem.
+
+5 - Pergunta: O que são elementos vazios em HTML? Forneça alguns exemplos de elementos vazios e explique por que eles são considerados vazios.
+
+R: Elementos vazios em HTML, são aqueles que não possuem nada entre as tag's, ou seja, não contem texto. Um exemplo é o elemento '<br>' que
+serve para inserir uma quebra de linha.
+
+
+6 - Pergunta: Explique a diferença entre elementos de bloco e elementos inline em HTML. Dê exemplos de cada um.
+
+R: Elementos de bloco são utilizados em estruturas maiores como paragrafos inteiros, costumam ocupar uma linha inteira.
+Exemplo: <div>, <p>, <h1>.
+   Elementos inline são utilizados em pequenas estruturas, não precisam abrir uma linha e ocupam pouco espaço.
+Exemplo:<span>, <a>, <strong>.
+
+
+7 - Pergunta: Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria uma em vez da outra?
+
+
+R: As tags <div> e <span> são semelhantes, porem possuem algumas diferenças na aplicação.
+Em HTML, <div> é utilizado para aplicar uma formatação a um bloco inteiro, ele necessita de uma nova linha.
+Ja <span> é um elemento inline, então não inicia uma nova linha e é usado para formatações especificas em pequenos
+textos, como titulos por exemplo.
+
+
+8 - Pergunta: Qual atributo HTML permite abrir um link em uma nova janela ou guia do navegador? Dê um exemplo de como usar esse atributo.
+
+
+O atributo usado para abrir um link em uma nova guia no navegador é o 'target'
+exemplo: <a href="https://www.saibamais.com" target="_blank">Abrir saiba mais em nova janela</a>
+
+
+9 - Pergunta: Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito de cada uma delas.
+
+
+R: Alem do exemplo mencionado na aula, o HTML possui as seguintes meta informações:
+Meta Autor (<meta name="author">):
+O meta autor indica o autor ou criador do conteúdo da página. É uma informação útil,
+especialmente em sites onde o conteúdo pode ser gerado por vários autores.
+
+Meta Palavras-chave (<meta name="keywords">):
+Propósito: A meta palavras-chave costumava ser usada para especificar palavras-chave
+relacionadas ao conteúdo da página. No entanto, muitos motores de busca agora não as usam para classificação.
+
+Meta Descrição (<meta name="description">):
+Propósito: A meta descrição fornece uma breve descrição do conteúdo da página. Essa descrição
+é frequentemente usada pelos motores de busca para exibir uma sinopse nos resultados da pesquisa. 
+Também é útil para acessibilidade, pois pode ser lida por leitores de tela.
+
+10 - Pergunta: Além das tags <b> e <i>, que outras tags de formatação HTML você conhece? Liste pelo menos duas tags adicionais e explique como elas são usadas.
+
+
+R: Alem das tags <b> e <i> existem muitas outras tags:
+<strong>: usado para destacar um texto, por padrão é renderizado em negrito.
+<em>: tambem usado para destacar um texto, porem renderiza por padrão em italico.
+
+
+
+
+
+
